@@ -26,8 +26,8 @@ rusdagene. Vi tager udgangspunkt i følgende kriterier, når vi udvælger tutore
  - En tutor er imødekommende
  - En tutor er glad
 
-Det betyder dog ikke, at du skal score top-karakter på alle disse kritierier for at blive tutor. Vores største fokus er
-at sammensætte en varieret tutorgruppe.
+Når vi vægter ovenstående kriterier betyder det __ikke__ at vi forventer at alle ansøgere score top-karakter på samtlige  kritierier. Vores fokus er at sammensætte en varieret tutorgruppe, med så mange af kriterierne repræsenteret som muligt.
+
 ## Om at være tutor 
 Når man ansøger om at blive tutor forventes det, at man kan deltage i de informationsmøder, der ligger i foråret samt
 rusdagene. For at man som tutor har mulighed for at fokusere på at give sit rushold den bedste start på universitetet,

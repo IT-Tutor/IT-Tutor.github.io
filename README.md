@@ -26,17 +26,17 @@ title: THE TITLE
 permalink: /URL/
 group: nav <!-- #Includes it in the menu-->
 ---
-''' 
+'''
 
 ###Edit a page
 Simply edit the .md file containing the page in the root folder
 
 ###Edit layout of a page
-If you want to change a layout of a specific page have a look in the header of the .md file. All pages have declared a layout format in the beginning og the .md file. 
+If you want to change a layout of a specific page have a look in the header of the .md file. All pages have declared a layout format in the beginning og the .md file.
 
 If you want to make changes to a layout have a look in the .html files in the _layouts folder.
 
-The front page look can be edited through /_layouts/default.html 
+The front page look can be edited through /_layouts/default.html
 
 #Edit look of a page
 Most look is defined in style.scss the rest is found in the _sass folder
@@ -52,14 +52,12 @@ layout: post
 title: Ny Forening!
 ```
 
-
-
 ##Lokal Setup
 
 If you want to get the page to run locally to in order to test changes before going live it can be done easily. A guide
 can be found ind the [docs](https://jekyllrb.com/docs/installation/)
 
-For reference (primarily my own) a list of the commands done in order to set the enviroment up can be found below. 
+For reference (primarily my own) a list of the commands done in order to set the enviroment up can be found below.
 
 *Note: I might document the setup process in the future. For now onbly ad-hoc documentation has been done*
 
@@ -138,4 +136,3 @@ jekyll serve
 Find out more: [https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/]
 
 Jekytll Docs: [https://jekyllrb.com/docs/home/]
-

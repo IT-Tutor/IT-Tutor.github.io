@@ -1,329 +1,303 @@
 ---
 ---
 
-//
-// IMPORTS
-//
-
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
-/**************/
-/* BASE RULES */
-/**************/
+@font-face {
+    font-family: AU_Passata;
+    src: url(fonts/AUPassata_Rg.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: AU_Passata;
+    src: url(fonts/AUPassata_Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: AU_Passata_light;
+    src: url(fonts/AUPassata_Light.ttf);
+}
 
 html {
-  font-size: 100%;
-	//Background image
-background-image: url(images/katrinebjerg_3.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-
+    width: 100%;
+    height: 100%;
 }
 
 body {
-	//background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $black;
+    width: 100%;
+    height: 100%;
+
+    background: #fff;
+    font-family: AU_Passata, 'opensans-regular', sans-serif;
 }
 
-.container {
-  margin: 10px auto;
-  max-width: 850px;
-  padding: 0 10px;
-  width: 100%;
+em {
+    font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $helvetica;
-	//Textcolor
-  color: $black;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
+ol{
+    padding-left: 30px;
+    list-style-type:decimal;
 }
 
-h1 {
-	//Headers
-  font-size: 30px;
-color: #597480;
-	a{
-		color: #597480;
-	}
-
-}
-
-h2 {
-  font-size: 24px;
-	color: #597480;
-}
-
-h3 {
-  font-size: 20px;
-	color: #597480;
-}
-
-h4 {
-  font-size: 18px;
-  color: #597480;
-}
-
-p {
-  margin: 15px 0;
-}
-
-a {
-	//Link color
-  color: $black;
-  text-decoration: none;
-	cursor: pointer;
-	//Hover over links
-  &:hover, &:active {
-    color: #DB2600;
-  }
-}
-
-ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
+ol li {
+margin: 0 10px;
+padding: 0 10px;
 }
 
 ul {
+  padding-left: 30px;
   list-style-type: disc;
 }
 
-ol {
-  list-style-type: decimal;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
-}
-
-em, i {
-  font-style: italic;
-}
-
-strong, b {
-  font-weight: bold;
-}
-
-img {
-  max-width: 100%;
-	max-height: 50%;
-}
-
-// Fixes images in popup boxes from Google Translate
-.gmnoprint img {
-  max-width: none;
-}
-
-.date {
-  font-style: italic;
-  color: $white;
-}
-
-// Specify the color of the selection
-::-moz-selection {
-  color: $black;
-  background: #c69;
-}
-::selection {
-  color: $black;
-  background: #c69;
-}
-
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
-
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
-
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $darkGray;
-  text-align: center;
-
-  @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  max-width: 850px;
-  max-height: 85px;
-  margin-left: auto;
-  margin-right: auto;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-
-  }
-
-  /**img {
-    border-radius: 5px;
-  }**/
-
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: $white;
-  cursor: pointer;
-  font-family: $helvetica;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $white;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
-nav {
-  display: inline-block;
-  text-align: center;
-  margin-top: 23px; // @TODO: Vertically middle align
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  font-family: $helvetica;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 10px;
-    margin-right: 10px;    
-    text-align: center;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
-
-//
-// .main
-//
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $darkGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-
 .post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
+    color: #252626;
+    background-color: #ffffff;
 }
 
-
-.wrapper-footer {
-	
-	//Footer
-  margin-top: 50px;
-	//Line above and below
-  border-top: 1px solid $white;
-  border-bottom: 1px solid $white;
-	//Color of background
-  background-color: #d0d2d5;
+.post hr {
+    border-top: 1px solid #fff;
 }
 
-footer {
-  padding: 20px 0;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar {
+  display: inline-block;
+  float: none;
   text-align: center;
 }
 
+.navbar-fixed-top {
+    min-height: 60px;
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: auto;
+}
+
+.navbar-nav > li > a {
+    padding-top: 5;
+    padding-bottom: 0;
+    line-height: 80px;
+    font-size: 25px;
+}
+
+.nav-section {
+    background-size: cover;
+    /*background-color: #D65B12;*/
+    height: 100vh;
+    color: #ffffff;
+}
+
+.nav-section h1 {
+    font-size: 10vh;/*6em;*/
+}
+
+.nav-section p {
+    font-size: 5vh;/*2em;*/
+}
+
+.nav-section .nav-section-top-margin {
+    height: 50vh;
+}
+
+.nav-section .btn-lg {
+    font-size: 3vh;
+}
+
+.section {
+  padding-bottom: 8em;
+}
+
+.section hr {
+  border-top: 1px solid #252626;
+
+}
+
+.left:before {
+  top: -4em;
+  height: 4em;
+  background-image: url("../images/triangle_white_left.svg");
+}
+
+.right:before {
+  top: -4em;
+  height: 4em;
+  background-image: url("../images/triangle_white_right.svg");
+}
+
+input {
+    min-width: 100px;
+}
+
+hr {
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+a {
+    color: #3ab4c6;
+}
+
+@media (max-width: 767px) {
+    .nav-section .nav-section-top-margin {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        min-height: 0;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #mlh-trust-badge {
+        left: 25px;
+    }
+}
+
+.image {
+  min-height: 8em;
+}
+
+.entry p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.entry li {
+  padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+  font-size: 25px;
+}
+
+h1 {
+  font-family: AUPassata_Bold, 'opensans-regular', sans-serif;
+
+  padding-top: 1.5em;
+  padding-bottom: 0.75em;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #192231;
+}
+
+h2 {
+  font-family: AUPassata_Bold, 'opensans-regular', sans-serif;
+
+  padding-top: 1.25em;
+  padding-bottom: 0.5em;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #192231;
+}
+
+h3 {
+    font-family: AUPassata_Bold, 'opensans-regular', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #192231;
+}
 
 
+footer h3 {
+    padding-bottom: 25px;
+}
+
+footer a {
+    color: #ffffff;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+footer .fa {
+}
+
+footer .fa:hover {
+    color: #D65B12;
+}
+
+footer hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer .info-row {
+    margin-bottom: 50px;
+}
+
+footer .info-row a {
+    color: #fff;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 180px; /* must be same height as the footer */
+}
+
+#footer {
+  position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 180px;
+  clear: both;
+  background-color: #192231;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  bottom:0;
+  width: 100%;
+}
+
+/* Opera Fix thanks to Maleika (Kohoutec) */
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;/* thank you Erik J - negate effect of float*/
+}
+
+.triangle:before, .triangle:after {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+    width: 100%;
+    content: '';
+    left: 0;
+}
 
 /* Mailchimp setup */
 
 #mc_embed_signup {
-  background: #fff; 
-  clear: left; 
-  font: 14px Helvetica,Arial,sans-serif; 
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif;
 }
-
-
 
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
@@ -351,7 +325,7 @@ footer {
 #mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
 
 #mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
-#mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}     
+#mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}
 #mc_embed_signup .clear {clear:both;}
 
 #mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}

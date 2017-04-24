@@ -2,19 +2,21 @@
 layout: page
 title: Hold dig opdateret
 permalink: /info/
+position: left
 group: nav
+image:
 ---
 
-Du kan følge med i kalenderen med årets tutorbegivenheder herunder. Bemærk, at det forventes, at melder man sig som tutor, dukker man som udgangspunkt op til begivenhederne. 
+Du kan følge med i kalenderen med årets tutorbegivenheder herunder. Bemærk, at det forventes, at melder man sig som tutor, dukker man som udgangspunkt op til begivenhederne.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=pfmjf11m3ug3rgvom11hvuhm6k%40group.calendar.google.com&ctz=Europe/Copenhagen?mode=AGENDA" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=pfmjf11m3ug3rgvom11hvuhm6k%40group.calendar.google.com&ctz=Europe/Copenhagen?mode=AGENDA" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
 <!-- Begin MailChimp Signup Form -->
-
+<h3>Skriv dig op på maillisten og få informationer når vi søger tutorer!</h3>
+<hr>
 <div id="mc_embed_signup">
 <form action="//it-tutor.us14.list-manage.com/subscribe/post?u=b2ea55c2460c966666e34af7e&amp;id=c254021dc8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h3>Skriv dig op på maillisten og få informationer når vi søger tutorer!</h3>
 <div class="indicates-required"><span class="asterisk">*</span> påkrævet</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email-addresse<span class="asterisk">*</span>

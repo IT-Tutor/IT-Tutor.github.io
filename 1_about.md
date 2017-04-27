@@ -4,7 +4,7 @@ title: Om Os
 permalink: /omos/
 position: left
 group: nav
-image: big-image
+image: big-image.png
 ---
 Velkommen til IT-Tutor!
 

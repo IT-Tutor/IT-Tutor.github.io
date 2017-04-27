@@ -7,6 +7,16 @@ group: nav
 image:
 ---
 
+<div class="row">
+  <div class = "col-sm-6">
 **Dagsordener**
 <br /> <br />
-[Dagsorden 8/2-17](/docs/82-17-2.pdf)
+Dagsordener(href= "https://drive.google.com/open?id=0B5VBsSFY6B-Gb0JEanJCTzM4dG8")
+  </div> 
+  
+  <div class = "col-sm-6">
+**Referater**
+<br /> <br />
+Referater (href= "https://drive.google.com/open?id=0B5VBsSFY6B-GT2hJdEYwUjVuOU0") 
+  </div>
+  

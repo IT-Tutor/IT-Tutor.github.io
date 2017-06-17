@@ -4,7 +4,7 @@ title: Dokumenter
 permalink: /dokumenter/
 position: right
 group: nav
-image:
+image: images/about_image.png
 ---
 
 <div class="row">

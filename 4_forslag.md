@@ -4,7 +4,7 @@ title: Forslag
 permalink: /forslag/
 position: right
 group: nav
-image:
+image: images/about_image.png
 ---
 
 Hvis du har forslag til aktiviteter, som den nye tutorforening skal lave eller ikke lave, kan du udfylde kontaktformularen herunder. Alternativt kan forslag sendes til [alle@it-tutor.dk](mailto:alle@it-tutor.dk)

@@ -4,7 +4,7 @@ title: Bliv Tutor
 permalink: /tutor/
 position: right
 group: nav
-image:
+image: images/about_image.png
 ---
 
 Ansøgningsfristen for at søge om at blive tutor er i starten af april. Den specifikke dato fra år til år kan ses i

@@ -4,7 +4,7 @@ title: Hold dig opdateret
 permalink: /info/
 position: left
 group: nav
-image:
+image: images/opdateret.png
 ---
 
 Du kan følge med i kalenderen med årets tutorbegivenheder herunder. Bemærk, at det forventes, at melder man sig som tutor, dukker man som udgangspunkt op til begivenhederne.

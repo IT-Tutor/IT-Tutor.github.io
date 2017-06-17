@@ -4,7 +4,7 @@ title: Vedtægter
 permalink: /vedtaegter/
 position: left
 group: nav
-image:
+image: images/about_image.png
 ---
 
 

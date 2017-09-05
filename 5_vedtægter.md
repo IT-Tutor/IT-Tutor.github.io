@@ -68,8 +68,8 @@ Tegningsregler og daglig ledelse<br>
 Foreningen tegnes af
 + Formanden
 + Den økonomi-ansvarlige<br>
-**Stk. 2.**
-De i Stk. 1 nævnte må hver individuelt disponere over foreningens midler.
+
+**Stk. 2.** De i Stk. 1 nævnte må hver individuelt disponere over foreningens midler.
 
 
 ## §10

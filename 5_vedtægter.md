@@ -29,8 +29,7 @@ Den ordinære generalforsamling afholdes hvert år i efteråret og indkaldes med
 
 ## §5
 **Stk 1.** På generalforsamlingen holdes en evaluering af det foregående års aktiviteter, og bestyrelsen fremlægger foreningens regnskab til godkendelse. En ny bestyrelse, der skal forestå det kommende års rusintroduktion, vælges.<br>
-**Stk 2.** Dagsorden 
-Dagsorden for den ordinære generalforsamling skal indeholde følgende punkter:
+**Stk 2.** Dagsorden for den ordinære generalforsamling skal indeholde følgende punkter:
 
 
 1. Valg af dirigent.

@@ -28,8 +28,8 @@ Den ordinære generalforsamling afholdes hvert år i efteråret og indkaldes med
 
 
 ## §5
-**Stk 1.** På generalforsamlingen holdes en evaluering af det foregående års aktiviteter, og bestyrelsen fremlægger foreningens regnskab til godkendelse. En ny bestyrelse, der skal forestå det kommende års rusintroduktion, vælges.
-**Stk 2.** Dagsorden
+**Stk 1.** På generalforsamlingen holdes en evaluering af det foregående års aktiviteter, og bestyrelsen fremlægger foreningens regnskab til godkendelse. En ny bestyrelse, der skal forestå det kommende års rusintroduktion, vælges.<br>
+**Stk 2.** Dagsorden 
 Dagsorden for den ordinære generalforsamling skal indeholde følgende punkter:
 
 
@@ -51,32 +51,32 @@ Bestyrelsen kan frit indkalde til ekstraordinær generalforsamling, såfremt den
 
 
 ## §7
-Stk. 1. Bestyrelsen består af tre medlemmer. Bestyrelsen er ansvarlig for bevilling af penge samt indkaldelse til møder.
-Stk. 2. Bestyrelsen er selvkonstituerende og følgende poster skal være repræsenteret:
-• Formand
-• Næstformand
-• Kasserer
+**Stk. 1.** Bestyrelsen består af tre medlemmer. Bestyrelsen er ansvarlig for bevilling af penge samt indkaldelse til møder. <br>
+**Stk. 2.** Bestyrelsen er selvkonstituerende og følgende poster skal være repræsenteret:
++ Formand
++ Næstformand
++ Kasserer
 
 
 ## §8
-Stk. 1. Har et bestyrelsesmedlem handlet i strid med sine beføjelser (uden fuldmagt eller uden for dennes grænser), vil foreningen ikke været bundet af den trufne aftale, hvorfor bestyrelsesmedlemmet selv må hæfte for opfyldelsen.
-Stk. 2. Vælger et bestyrelsesmedlem at forlade foreningen, og dermed bestyrelsen, kan bestyrelsen suppleres med en suppleant i fald sådanne er valgt. Er dette ikke tilfældet er bestyrelsen selvsupplerende.
+**Stk. 1.** Har et bestyrelsesmedlem handlet i strid med sine beføjelser (uden fuldmagt eller uden for dennes grænser), vil foreningen ikke været bundet af den trufne aftale, hvorfor bestyrelsesmedlemmet selv må hæfte for opfyldelsen. <br>
+**Stk. 2.** Vælger et bestyrelsesmedlem at forlade foreningen, og dermed bestyrelsen, kan bestyrelsen suppleres med en suppleant i fald sådanne er valgt. Er dette ikke tilfældet er bestyrelsen selvsupplerende.
 
 
 ## §9
-Tegningsregler og daglig ledelse
+Tegningsregler og daglig ledelse<br>
 **Stk. 1.**
 Foreningen tegnes af
-• Formanden
-• Den økonomi-ansvarlige
++ Formanden
++ Den økonomi-ansvarlige<br>
 **Stk. 2.**
 De i Stk. 1 nævnte må hver individuelt disponere over foreningens midler.
 
 
 ## §10
-**Stk. 1.** Der opkræves ikke kontingent af foreningens medlemmer. Foreningens økonomi baseres på private tilskud
-**Stk. 2.** Foreningens medlemmer modtager ikke løn for deres arbejde.
-**Stk. 3.** Foreningens medlemmer hæfter ikke for foreningens eventuelle gæld.
+**Stk. 1.** Der opkræves ikke kontingent af foreningens medlemmer. Foreningens økonomi baseres på private tilskud <br>
+**Stk. 2.** Foreningens medlemmer modtager ikke løn for deres arbejde.<br>
+**Stk. 3.** Foreningens medlemmer hæfter ikke for foreningens eventuelle gæld.<br>
 **Stk. 4.** Regnskabsåret følger en given bestyrelse på en sådan måde at et nyt regnskabsår starter når de første aktiviteter under den nye bestyrelse påbegyndes.
 
 

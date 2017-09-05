@@ -71,6 +71,7 @@ gem install jekyll-sitemap
 gem install pygments.rb
 gem install jekyll-paginate
 gem install jekyll-gist
+gem install jekyll-feed 
 ```
 
 ### Windows

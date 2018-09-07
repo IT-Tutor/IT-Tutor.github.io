@@ -38,7 +38,7 @@ Formand <br />
 
 Freja Sneibjerg Ebsen <br />
 Næstformand <br />
-[ml@it-tutor.dk](mailto:ml@it-tutor.dk)
+[freja@it-tutor.dk](mailto:freja@it-tutor.dk)
 
 Mathias Mundt Kofod <br />
 Kasserer <br />
@@ -52,4 +52,4 @@ Sponsoransvarlig <br />
 
 Daniel Graungaard <br />
 Altmuligmand <br />
-[magnus@it-tutor.dk](mailto:daniel@it-tutor.dk)
+[daniel@it-tutor.dk](mailto:daniel@it-tutor.dk)
